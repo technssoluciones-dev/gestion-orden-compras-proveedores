@@ -1,0 +1,26 @@
+﻿# â”€â”€ Script de deploy (solo local) â”€â”€
+git-push.ps1
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Reports generados
+reports/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
